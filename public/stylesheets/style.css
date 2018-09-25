@@ -1,7 +1,5 @@
 body {
-  margin-top: 10%;
-}
-
-.navbar-brand {
-  float: none;
+  margin-top: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
