@@ -17,9 +17,9 @@ siteArray.forEach(site => {
 
 const siteBtn = document.getElementsByClassName('siteBtn');
 
-for (let i = 0; i < siteBtn.length; i++) {
-    siteBtn[i].addEventListener('click', () => {
-        const foo = siteBtn[i].getAttribute('data-site');
-        window.open(foo, '_blank');
+for (const btn of siteBtn) {
+    btn.addEventListener('click', () => {
+        const url = btn.getAttribute('data-site');
+        window.open(url, '_blank');
     });
 }
