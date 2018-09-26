@@ -2,313 +2,315 @@ const siteArray = [
     //Ticketing Sites =============
     {
         siteName: 'Compass',
-        siteURL: '',
+        siteURL: '#',
         category: 'ticketing'
     },
     {
         siteName: 'Ticket Watcher',
-        siteURL: '',
+        siteURL: '#',
         category: 'ticketing'
     },
     {
         siteName: 'Ticket Archive',
-        siteURL: '',
+        siteURL: '#',
         category: 'ticketing'
     },
     {
         siteName: 'Tickets',
-        siteURL: '',
+        siteURL: '#',
         category: 'ticketing'
     },
     //Inventory Sites ==============
     {
         siteName: 'Assets',
-        siteURL: '',
+        siteURL: '#',
         category: 'inventory'
     },
     {
         siteName: 'CyberArk',
-        siteURL: '',
+        siteURL: '#',
         category: 'inventory'
     },
     {
         siteName: 'EM7 Dashboard',
-        siteURL: '',
+        siteURL: '#',
         category: 'inventory'
     },
     {
         siteName: 'WASP',
-        siteURL: '',
+        siteURL: '#',
         category: 'inventory'
     },
     {
         siteName: 'Hardware Tracking',
-        siteURL: '',
+        siteURL: '#',
         category: 'inventory'
     },
     //Projects/MOP Sites =============
     {
         siteName: 'CM MOPS',
-        siteURL: '',
-        category: 'projects'
+        siteURL: '#',
+        category: 'projects-mops'
     },
     {
         siteName: 'Customer MOPS',
-        siteURL: '',
-        category: 'projects'
+        siteURL: '#',
+        category: 'projects-mops'
     },
     {
         siteName: 'Trello',
-        siteURL: '',
-        category: 'projects'
+        siteURL: '#',
+        category: 'projects-mops'
     },
     {
         siteName: 'Project Insight',
-        siteURL: '',
-        category: 'projects'
+        siteURL: '#',
+        category: 'projects-mops'
     },
     {
         siteName: 'Cust. CrossConnect Form',
-        siteURL: '',
-        category: 'projects'
+        siteURL: '#',
+        category: 'projects-mops'
     },
     {
         siteName: 'CrossConnect Express Form',
-        siteURL: '',
-        category: 'projects'
+        siteURL: '#',
+        category: 'projects-mops'
     },
     //Personal Sites ================
     {
         siteName: 'Expense Reporting',
-        siteURL: '',
+        siteURL: '#',
         category: 'personal'
     },
     {
         siteName: 'Paycom',
-        siteURL: '',
+        siteURL: '#',
         category: 'personal'
     },
     {
         siteName: 'Signature Tool',
-        siteURL: '',
+        siteURL: '#',
         category: 'personal'
     },
     {
         siteName: 'Outlook Web Access',
-        siteURL: '',
+        siteURL: '#',
         category: 'personal'
     },
     {
         siteName: 'Cisco Phone Management',
-        siteURL: '',
+        siteURL: '#',
         category: 'personal'
     },
     //Other Tools =========================
     {
         siteName: 'Amber Light Notice',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'Cardboard Sweep',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'Cust. Cab Locations',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'Shift Handoff',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'Utility',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'Webex',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'Customer Lookup',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     {
         siteName: 'IP Block Tool',
-        siteURL: '',
+        siteURL: '#',
         category: 'otherTools'
     },
     //Wiki Sites ===========================
     {
         siteName: 'Main Page',
-        siteURL: '',
+        siteURL: '#',
         category: 'wiki'
     },
     {
         siteName: 'CLT DC Stats',
-        siteURL: '',
+        siteURL: '#',
         category: 'wiki'
     },
     {
         siteName: 'CL2 DC Stats',
-        siteURL: '',
+        siteURL: '#',
         category: 'wiki'
     },
     {
         siteName: 'CL4 DC Stats',
-        siteURL: '',
+        siteURL: '#',
         category: 'wiki'
     },
     {
         siteName: 'Phone List',
-        siteURL: '',
+        siteURL: '#',
         category: 'wiki'
     },
     {
         siteName: 'Vendors',
-        siteURL: '',
+        siteURL: '#',
         category: 'wiki'
     },
     //Facility Sites ========================
     {
         siteName: 'CLT JACE',
-        siteURL: '',
+        siteURL: '#',
         category: 'facility'
     },
     {
         siteName: 'CL2 Temps',
-        siteURL: '',
+        siteURL: '#',
         category: 'facility'
     },
     {
         siteName: 'CL4 JACE',
-        siteURL: '',
+        siteURL: '#',
         category: 'facility'
     },
     {
         siteName: 'CL4 NOC RTU',
-        siteURL: '',
+        siteURL: '#',
         category: 'facility'
     },
     {
         siteName: 'Power Order',
-        siteURL: '',
+        siteURL: '#',
         category: 'facility'
     },
     {
         siteName: 'Power Reporting',
-        siteURL: '',
+        siteURL: '#',
         category: 'facility'
     },
     //Tape Rotation Sites ======================
     {
         siteName: 'Belk',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     {
         siteName: 'CBC',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     {
         siteName: 'ICA',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     {
         siteName: 'Skanska - Alan',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     {
         siteName: 'Skanska - Art',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     {
         siteName: 'Sompo',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     {
         siteName: 'SecureSync',
-        siteURL: '',
+        siteURL: '#',
         category: 'tapeRotation'
     },
     //Sharepoint Sites =============================
     {
         siteName: 'CLT',
-        siteURL: '',
+        siteURL: '#',
         category: 'sharepoint'
     },
     {
         siteName: 'CL2',
-        siteURL: '',
+        siteURL: '#',
         category: 'sharepoint'
     },
     {
         siteName: 'CL4',
-        siteURL: '',
+        siteURL: '#',
         category: 'sharepoint'
     },
     //Purchasing Sites ==============================
     {
         siteName: 'Purchasing Wiki',
-        siteURL: '',
+        siteURL: '#',
         category: 'purchasing'
     },
     {
         siteName: 'Install Supply Checklist',
-        siteURL: '',
+        siteURL: '#',
         category: 'purchasing'
     },
     {
         siteName: 'Office Supply Checklist',
-        siteURL: '',
+        siteURL: '#',
         category: 'purchasing'
     },
     {
         siteName: 'ReQlogic',
-        siteURL: '',
+        siteURL: '#',
         category: 'purchasing'
     },
     {
         siteName: 'Staples',
-        siteURL: '',
+        siteURL: '#',
         category: 'purchasing'
     },
     //Management Sites ================================
     {
         siteName: 'Ascent',
-        siteURL: '',
+        siteURL: '#',
         category: 'management'
     },
     {
         siteName: 'Netsuite',
-        siteURL: '',
+        siteURL: '#',
         category: 'management'
     },
     {
         siteName: 'SEI Portal',
-        siteURL: '',
+        siteURL: '#',
         category: 'management'
     },
     //Training Sites ===================================
     {
         siteName: 'Udemy',
-        siteURL: '',
+        siteURL: '#',
         category: 'training'
     },
     {
         siteName: 'Schneider Energy University',
-        siteURL: '',
+        siteURL: '#',
         category: 'training'
     }
 ];
+
+export default siteArray;
